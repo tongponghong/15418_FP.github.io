@@ -6,7 +6,7 @@ permalink: /proposal/
 # Parallel Path Tracing 
 ### Tunger Hong, Jenny Quan
 
-URL: 
+URL: https://tungerhong.com/15418_FP.github.io/proposal/
 
 ## Summary 
 We are going to parallelize the path tracer and creation of bounding volume hierarchies (BVHs) built into the graphics application [Scotty3D](https://github.com/CMU-Graphics/Scotty3D). 
