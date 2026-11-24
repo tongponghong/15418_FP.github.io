@@ -21,6 +21,7 @@ include:
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "proposal.md"}
+  - {file: "midpoint_report.md"}
   - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
