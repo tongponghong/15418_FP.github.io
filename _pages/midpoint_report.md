@@ -1,3 +1,6 @@
+# Midpoint Report
+### Tunger Hong and Jenny Quan 
+
 ## Revised (detailed) plan for the coming weeks
 
 **Nov 24 \- Nov 25:** Implement parallel BVH Traversal (Tunger). Expand renderer to include specular materials and (optionally, time permitting) environmental lighting (Jenny). Try to see if there are low-hanging optimizations to current CUDA implementation (Jenny).  
