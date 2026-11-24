@@ -3,5 +3,8 @@ layout: default
 ---
 <article>
   {% include meta.html post=page %}
+  {% if page.pdf %}
+  <div class = "button no-print"><a href="#" onclick="window.print(); return false;">Download PDF</a></div>
+  {% endif %}
   {{ content }}
 </article>

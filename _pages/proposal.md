@@ -2,7 +2,9 @@
 layout: page
 title: "Proposal"
 permalink: /proposal/
+pdf: true
 ---
+**(Tentative: Jenny Quan is stuck at LaGuardia airport, not final yet)**
 # Parallel Path Tracing 
 ### Tunger Hong, Jenny Quan
 

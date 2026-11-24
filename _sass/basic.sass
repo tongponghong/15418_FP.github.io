@@ -75,3 +75,23 @@ code:not(pre code)
 
 header time, nav time
   color: gray(100)
+
+@media print
+  body
+    color-scheme: only light
+    background: none !important
+    padding: 0 !important
+  body > header, body > footer, .no-print
+    display: none !important
+  body > *
+    box-shadow: none !important
+    padding: 0 !important
+  a
+    color: inherit
+  pre
+    background: none
+    color: inherit
+    border: 1px solid gray(40)
+    white-space: pre-wrap
+  img, pre, table, figure
+    break-inside: avoid
