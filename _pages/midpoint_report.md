@@ -1,4 +1,9 @@
-# Midpoint Report
+---
+layout: page
+title: "Proposal"
+permalink: /midpoint/
+pdf: true
+---
 ### Tunger Hong and Jenny Quan 
 
 ## Revised (detailed) plan for the coming weeks
@@ -38,7 +43,7 @@
 
 We successfully rendered a scene of lights and Lambertian surfaces. The GPU render is shown on the left, and a reference CPU render is shown on the right. The spheres look a bit off, as our current scene data only supports triangles and not spheres; this can be fixed by adding support for sphere geometry (ray-sphere hit is already implemented on the CPU). In addition, while the GPU render successfully captures the overall scene and light transport, including base color, shadows, and color bleed, the overall brightness seems to be a bit off compared to the reference. We theorize that this could be caused either by the GPU’s lack of processing delta lights, incorrect aggregation of direct vs indirect ray bounces, or CPU gamma encoding, but further investigation would be needed to pinpoint this issue. 
 
-- ![][image1]![][image2]
+![][image1]![][image2]
 
 ## Outstanding issues, uncertainty, and remaining work
 
